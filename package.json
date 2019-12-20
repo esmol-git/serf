@@ -1,13 +1,13 @@
 {
-  "name": "start-template",
+  "name": "start-template-pug",
   "version": "1.0.0",
   "description": "My start Template",
   "main": "index.js",
-  "author": "Salamatin Anatoliy",
+  "author": "Evgeny Smolyakov",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "4.0",
