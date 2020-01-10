@@ -1,13 +1,13 @@
 $(document).ready(function () {
     svg4everybody({});
-    $(".header__slider").slick({
+    $('.header__slider').slick({
         infinite: true,
         fade: true,
         prevArrow: '<img class="slider-arrows slider-arrows__left" src="static/images/content/icon/arrow-left.svg" alt="arrow-left"></img>',
         nextArrow: '<img class="slider-arrows slider-arrows__right" src="static/images/content/icon/arrow-right.svg" alt="arrow-right"></img>',
         asNavFor: '.slider-dots',
     })
-    $(".slider-dots").slick({
+    $('.slider-dots').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
         asNavFor: '.header__slider',
