@@ -32,6 +32,7 @@
     "imagemin-jpeg-recompress": "^6.0.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "ncu": "^0.2.1",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1",

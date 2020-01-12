@@ -100,3 +100,115 @@ header {
         text-transform: capitalize;
     }
 }
+
+.header__title {
+    max-width: 467px;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 156px;
+    color: $white;
+    opacity: 0.07;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.header__aside {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    border-right: 1px solid rgba($white, 0.25);
+    text-align: center;
+
+}
+
+.menu {
+    padding-top: 100px;
+
+    a {
+        color: $white;
+        text-transform: capitalize;
+
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 3px;
+            padding-top: 6px;
+            margin-bottom: 35px;
+        }
+    }
+
+    img {
+        margin: 0 auto;
+    }
+}
+
+.header__search {
+    margin-bottom: 20px;
+}
+
+.header__date {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 64px;
+    margin-top: 20px;
+
+    span {
+        padding-top: 15px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+.header__location {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    padding-left: 19px;
+    text-transform: capitalize;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 11px;
+        height: 13px;
+        background: url(../images/content/icon/location.svg);
+    }
+}
+
+.header__map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.header__arrows {
+    position: absolute;
+    left: 271px;
+    bottom: 40px;
+    z-index: 3;
+}
+.line-animation{
+    stroke-dashoffset: 600;
+    stroke-dasharray: 600;
+    animation: animdash 5s infinite 6s;
+}
+@keyframes animdash {
+    to {
+        stroke-dashoffset: 0;   
+    }
+
+}
