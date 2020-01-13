@@ -18,6 +18,13 @@ $(document).ready(function () {
         slidesToScroll: 1,
         prevArrow: '<img class="slider-arrows slider-arrows__left" src="static/images/content/icon/arrow-left.svg" alt="arrow-left"></img>',
         nextArrow: '<img class="slider-arrows slider-arrows__right" src="static/images/content/icon/arrow-right.svg" alt="arrow-right"></img>',
+        asNavFor: '.slider-map'
+    })
+    $('.slider-map').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        asNavFor: '.surf-slider',
+        focusOnSelect: true
     })
 });
 
