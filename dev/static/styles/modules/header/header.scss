@@ -64,7 +64,7 @@ header {
     }
 }
 
-.slider-dots {
+.slider-dotshead {
     position: absolute;
     right: 50px;
     bottom: 36px;
@@ -126,10 +126,9 @@ header {
 }
 
 .menu {
-    padding-top: 100px;
+    padding-top: 40px;
 
     a {
-        color: $white;
         text-transform: capitalize;
 
         span {
@@ -198,17 +197,19 @@ header {
 .header__arrows {
     position: absolute;
     left: 271px;
-    bottom: 40px;
+    bottom: 20px;
     z-index: 3;
 }
-.line-animation{
+
+.line-animation {
     stroke-dashoffset: 600;
     stroke-dasharray: 600;
     animation: animdash 5s infinite 6s;
 }
+
 @keyframes animdash {
     to {
-        stroke-dashoffset: 0;   
+        stroke-dashoffset: 0;
     }
 
 }
