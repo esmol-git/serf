@@ -26,6 +26,12 @@ $(document).ready(function () {
         asNavFor: '.surf-slider',
         focusOnSelect: true
     })
+    $('.travel__slider').slick({
+        infinite: true,
+        fade: true,
+        prevArrow: '<img class="slider-arrows slider-arrows__left" src="static/images/content/icon/arrow-left.svg" alt="arrow-left"></img>',
+        nextArrow: '<img class="slider-arrows slider-arrows__right" src="static/images/content/icon/arrow-right.svg" alt="arrow-right"></img>',
+    })
 });
 
 

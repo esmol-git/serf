@@ -1,5 +1,4 @@
 .surf {
-    padding: 160px 0 210px;
     background-image: url(../../static/images/content/surf/surf-bg.png);
     background-repeat: no-repeat;
     background-position: right 200px;
@@ -219,10 +218,10 @@
     left: 0;
 
     .slider-dots__content {
-        transform: translateX(0);
+        transform: translateX(0) !important;
 
         &::before {
-            left: 0;
+            left: 0 !important;
         }
     }
 }
@@ -276,4 +275,13 @@
 .slider-dots--8 {
     top: 470px;
     left: 35px;
+
+    .slider-dots__content {
+        transform: translateX(-262px) !important;
+
+        &::before {
+            left: auto !important;
+            right: 0;
+        }
+    }
 }
