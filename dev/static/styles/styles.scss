@@ -265,7 +265,7 @@ button {
 .travel,
 .holder,
 .sleep {
-  padding: 100px 0 150px;
+  padding: 100px 0 190px;
 }
 
 .quantity {
@@ -325,6 +325,10 @@ input[type=number] {
   position: absolute;
   right: 25px;
 }
+
+
+
+@media(max-width: 1440px) {}
 
 //Модули
 @import "modules/modules";

@@ -213,3 +213,62 @@ header {
     }
 
 }
+
+@media(max-width: 1440px) {
+    .logo {
+        img {
+            width: 100px;
+        }
+    }
+
+    .header__title {
+        font-size: 130px;
+        line-height: 108px;
+        top: 20px;
+        left: 60px;
+    }
+
+    .header__date {
+        font-size: 60px;
+        padding-top: 0;
+
+        span {
+            font-size: 14px;
+            padding-top: 0;
+            margin-bottom: 5px;
+        }
+    }
+
+    .menu {
+        padding-top: 10px;
+    }
+
+    .header__arrows {
+        left: 130px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .header__aside {
+        border-right: none;
+        height: 100%;
+        text-align-last: left;
+        display: flex;
+    }
+
+    .menu {
+        padding-top: 0;
+    }
+
+    .menu__list {
+        text-align: center;
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            padding: 15px;
+        }
+    }
+}
