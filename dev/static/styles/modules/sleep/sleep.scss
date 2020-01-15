@@ -1,0 +1,21 @@
+.sleep {
+    background-image: url(../../static/images/content/sleep/frangipani.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    .slider-arrows {
+        top: 225px;
+        opacity: 0.5;
+    }
+}
+
+.holder__star-list {
+    max-height: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+
+    img {
+        margin-left: -40px;
+
+    }
+}

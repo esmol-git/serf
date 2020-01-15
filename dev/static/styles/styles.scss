@@ -258,8 +258,68 @@ button {
 }
 
 .surf,
-.travel {
-  padding: 100px 0 190px;
+.travel,
+.holder,
+.sleep {
+  padding: 100px 0 150px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 45px;
+  height: 42px;
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 800;
+  color: $white;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: static;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40px;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  right: 0px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  right: 25px;
 }
 
 //Модули
